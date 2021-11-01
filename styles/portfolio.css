@@ -2,10 +2,10 @@
 font-family: 'Poppins', sans-serif;*/
 
 :root {
-  --branding-color: #6c63ff;
+  --branding-color: black;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
-  --secondary-color: #f9f7fe;
+  --secondary-color: #c5c4c9;
 }
 
 h1,
@@ -48,7 +48,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: red;
 }
 
 .hero h2 {
@@ -155,7 +155,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: red;
 }
 
 .logo {
