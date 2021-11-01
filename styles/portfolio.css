@@ -58,6 +58,10 @@ p {
   font-size: 24px;
 }
 
+.about-photo {
+  border-radius: 20px;
+}
+
 .content-container {
   padding: 60px 20px;
 }
@@ -85,6 +89,10 @@ p {
 .content p {
   font-size: 14px;
   text-align: center;
+}
+
+.content {
+  margin: 30px;
 }
 
 .content-container-content {
@@ -115,7 +123,12 @@ p {
 
 .logo {
   text-decoration: none;
-  max-height: 40px;
+  max-height: 25%;
+}
+
+.logo:hover {
+  transform: rotate(360deg);
+  transition: all 2s ease-in-out;
 }
 
 nav {
@@ -143,6 +156,10 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+.logo {
+  max-width: 10px;
 }
 
 footer {
@@ -184,6 +201,11 @@ footer .social-links a:hover {
   background: var(--branding-color);
 }
 
+#skills {
+  background: var(--secondary-color);
+  padding: 15px 120px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -196,6 +218,10 @@ footer .social-links a:hover {
 
   h4 {
     font-size: 26px;
+  }
+
+  .logo {
+    width: 50px;
   }
 
   .hero {
